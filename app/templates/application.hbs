@@ -1,3 +1,30 @@
-<h2 id="title">Welcome to Ember</h2>
+{{#md-navbar name="Insolent Parakeet" classNames="purple lighten-2 pretty-cursive"}}
+  {{#link-to "index" (query-params x="no") tagName="li"}}
+    <a class="pretty-cursive amber-text darken-4">Post a Listing</a>
+  {{/link-to}}
+  {{#link-to "index" (query-params x="no") tagName="li"}}
+    <a class="pretty-cursive amber-text darken-4">Register</a>
+  {{/link-to}}
+  {{#link-to "index" (query-params x="no") tagName="li"}}
+    <a class="pretty-cursive amber-text darken-4">Sign in</a>
+  {{/link-to}}
+{{/md-navbar}}
 
+<div class="container">
+  <div class="row final">
+    <ul class="button-family col l12">
+      <li class="btn-flat">
+        <input value="Search item or tag">
+      </li>
+      <li class="btn-flat waves-effect">dresses</li>
+      <li class="btn-flat waves-effect">shoes</li>
+      <li class="btn-flat waves-effect">magical accessories</li>
+      <li class="btn-flat waves-effect">hair</li>
+      <li class="btn-flat waves-effect">intimate apparal</li>
+    </ul>
+  </div>
+</div>
 {{outlet}}
+
+{{!-- ember-cli-materialize modal container --}}
+{{md-modal-container}}

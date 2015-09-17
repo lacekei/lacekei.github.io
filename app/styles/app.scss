@@ -1,0 +1,26 @@
+@import 'materialize';
+@import 'ember-cli-materialize';
+
+@import 'font-awesome';
+@import 'compass';
+
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+@import 'common';
+
+.page-hero {
+  background: {
+    image: images-url('under_construction.png');
+    repeat: no-repeat;
+    size: cover;
+  }
+  height: 300px;
+  @include display-flex;
+  @include flex-direction(column);
+  @include justify-content(center);
+}
+
+.site-slogan {
+  color: #e1e1e1;
+  font-weight: bold;
+}

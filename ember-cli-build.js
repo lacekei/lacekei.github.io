@@ -3,7 +3,13 @@ var EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    // Add options here
+    sassOptions: {
+      includePaths: [
+        'bower_components/materialize/sass',
+        'bower_components/compass-mixins/lib',
+        'bower_components/font-awesome/scss'
+      ]
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated

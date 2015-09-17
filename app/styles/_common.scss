@@ -1,0 +1,16 @@
+@function images-url($path) {
+  @return url("images/" + $path);
+}
+
+.row.final {
+  margin-bottom: 0;
+}
+.pretty-cursive {
+  font-family: 'Pacifico', cursive;
+}
+
+ul.button-family {
+  li {
+    display: inline-block;
+  }
+}
