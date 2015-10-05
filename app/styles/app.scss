@@ -4,13 +4,15 @@
 @import 'font-awesome';
 @import 'compass';
 
+@import 'common';
+
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
-@import 'common';
+@import "templates/index";
 
 .page-hero {
   background: {
-    image: images-url('under_construction.png');
+    image: images-url('kissmebaby.png');
     repeat: no-repeat;
     size: cover;
   }

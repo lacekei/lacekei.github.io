@@ -1,0 +1,44 @@
+#index {
+  .first-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    background-color: color("blue-grey", "lighten-5");
+  }
+  .second-section {
+    padding-bottom: 2rem;
+    background-color: color("blue-grey", "lighten-4");
+    margin-bottom: -1.4rem;
+  }
+  .brand {
+    padding-top: 50px;
+    height: 200px;
+    background: {
+      image: images-url("dress.png");
+      size: contain;
+      repeat: no-repeat;
+      color: rgba(#000, 0.5);
+      position: center center;
+    }
+  }
+  .site-title {
+    font-size: 2.3rem;
+    color: color("amber", "lighten-2");
+  }
+  .second-hero {
+    height: 300px;
+    padding-top: 125px;
+    background: {
+      image: images-url("supercell.jpg");
+      size: cover;
+      repeat: no-repeat;
+      position: center top;
+    }
+  }
+  .parting-words {
+    background-color: rgba(#000, 0.5);
+    font-size: 1.75rem;
+    color: color("amber", "lighten-2");
+    text-align: center;
+    padding: 1rem;
+  }
+}
